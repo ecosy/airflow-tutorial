@@ -1,5 +1,3 @@
-from datetime import datetime
-
 from airflow import DAG
 from airflow.operators.empty import EmptyOperator
 from sqlalchemy_utils.types.enriched_datetime.pendulum_date import pendulum
